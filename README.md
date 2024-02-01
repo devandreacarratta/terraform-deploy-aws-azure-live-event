@@ -1,5 +1,7 @@
 # Terraform per principianti: deploy facile su AWS e Azure.
 
+![Terraform   Azure](https://github.com/devandreacarratta/terraform-deploy-aws-azure-live-event/assets/46504271/cd1abe09-30ed-40de-b6b7-e76650cd856d)
+
 
 Ho pensato molto se scrivere o meno questa introduzione e/o se farmi aiutare da ChatGTP oppure no. Ho deciso di farlo in autonomia perché desidero sia più sincera possibile.
 
