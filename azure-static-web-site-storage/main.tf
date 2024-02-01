@@ -6,6 +6,11 @@ resource "random_password" "password" {
   override_special = "!#$%&*()-_=+[]{}<>:?"
 }
 
+resource "azurerm_resource_group" "resource_group" {
+  name     = "${var.project}-${var.environment}-rg"
+  location = var.location
+}
+
 
 resource "azurerm_storage_account" "storage_account" {
   name                     = replace("${var.project}${var.environment}st", "-", "")
